@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Skill(firecrawl-scrape)",
+      "Skill(firecrawl-scrape:*)",
+      "Read(//Users/lucas/.agents/skills/firecrawl-scrape/**)",
+      "Read(//tmp/**)",
+      "Bash(curl -s \"https://raw.githubusercontent.com/Andrew6rant/Andrew6rant/main/README.md\")",
+      "WebFetch(domain:api.github.com)"
+    ]
+  }
+}

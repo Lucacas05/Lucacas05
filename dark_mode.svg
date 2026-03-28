@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760">
+  <style>
+    .panel { fill: #161b22; stroke: #30363d; stroke-width: 1; }
+    .frame { fill: none; stroke: #21262d; stroke-width: 1; }
+    .header { font: 700 22px 'SFMono-Regular','Consolas','Liberation Mono','Menlo','Courier',monospace; fill: #f0f6fc; }
+    .section { font: 700 18px 'SFMono-Regular','Consolas','Liberation Mono','Menlo','Courier',monospace; fill: #f0f6fc; }
+    .label { font: 18px 'SFMono-Regular','Consolas','Liberation Mono','Menlo','Courier',monospace; fill: #ffa657; }
+    .value { font: 18px 'SFMono-Regular','Consolas','Liberation Mono','Menlo','Courier',monospace; fill: #a5d6ff; }
+    .muted { font: 18px 'SFMono-Regular','Consolas','Liberation Mono','Menlo','Courier',monospace; fill: #8b949e; }
+    .good { font: 18px 'SFMono-Regular','Consolas','Liberation Mono','Menlo','Courier',monospace; fill: #3fb950; }
+    .bad { font: 18px 'SFMono-Regular','Consolas','Liberation Mono','Menlo','Courier',monospace; fill: #ff7b72; }
+    .art { font: 6.5px 'SFMono-Regular','Consolas','Liberation Mono','Menlo','Courier',monospace; fill: #c9d1d9; }
+    .dots { stroke: #8b949e; stroke-width: 2; stroke-linecap: round; stroke-dasharray: 1 8; opacity: 0.9; }
+  </style>
+
+  <rect x="16" y="16" width="1248" height="728" rx="24" class="panel" />
+  <rect x="34" y="34" width="1212" height="692" rx="18" class="frame" />
+  <line x1="530" y1="58" x2="530" y2="702" stroke="#30363d" stroke-width="1" />
+
+  <text xml:space="preserve" class="art">
+    <tspan x="42" y="102">                                     .*          &amp;,,(&amp;&amp;&amp;&amp;&amp;&amp;%%&amp;&amp;%%&amp;&amp;#,&amp;  %%&amp;.</tspan>
+    <tspan x="42" dy="11.2">                                      /%%&amp;&amp;&amp;&amp;%&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;%,&amp;/%&amp;. //</tspan>
+    <tspan x="42" dy="11.2">                                   ,(&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;/,&amp;#</tspan>
+    <tspan x="42" dy="11.2">                                (%&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;%*&amp;#</tspan>
+    <tspan x="42" dy="11.2">                              &amp;&amp;/&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;%&amp;/</tspan>
+    <tspan x="42" dy="11.2">                             .&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp; &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;.</tspan>
+    <tspan x="42" dy="11.2">                       ,%&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;.</tspan>
+    <tspan x="42" dy="11.2">                          .*&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;%&amp;&amp;&amp;*&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;/</tspan>
+    <tspan x="42" dy="11.2">                         #&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;  &amp;&amp;&amp;&amp;&amp;&amp;/&amp;&amp;&amp;&amp;&amp;&amp;&amp;///&amp;&amp;%*,,(&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;,</tspan>
+    <tspan x="42" dy="11.2">                        &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;  &amp;&amp;%/&amp;&amp;&amp;%/*,&amp;&amp;&amp;%*,,,,,,,,,,,,,,&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;,</tspan>
+    <tspan x="42" dy="11.2">                       ,&amp;&amp;,&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;#&amp;%,,&amp;*,,,,,,%#,,,,,,,,,,,,,,,,,,,&amp;&amp;,&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;/#</tspan>
+    <tspan x="42" dy="11.2">                       ,&amp;.#&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;*&amp;&amp;&amp;*,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*,*&amp;&amp;&amp;&amp; &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;*</tspan>
+    <tspan x="42" dy="11.2">                          (&amp; &amp;&amp;&amp;&amp;&amp;&amp;&amp;,#&amp;,,,,,,,,,,,,,,,,*,,,,,,,,,,,,,,,,,,,,,,,,(&amp;&amp;&amp; &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;.</tspan>
+    <tspan x="42" dy="11.2">                          .&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;(,,,/&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;%*,,,,,,,,,,,,%&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;#,,/(&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;*&amp;.</tspan>
+    <tspan x="42" dy="11.2">                         .&amp;&amp;&amp;&amp; &amp;&amp;&amp;&amp;,,&amp;&amp;&amp;/,,,,,,,,////,,,,,,,,,*(*/*,,,,,,,,,/&amp;%/*/&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;.(</tspan>
+    <tspan x="42" dy="11.2">                         &amp;  (&amp;&amp;&amp;&amp;&amp;&amp;,,,,,,,,*,//,,*,,,,,,,,,,,,,,,,/,,,,,,*,,,,,,**&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;,</tspan>
+    <tspan x="42" dy="11.2">                            /&amp;*&amp;&amp;&amp;&amp;(,,,,,&amp;,.&amp;&amp;&amp;*&amp;,(,,,,,,,,,,,,,,,*.&amp;&amp;&amp;(&amp;,((,,,//(&amp;&amp;&amp;&amp;&amp;&amp;(</tspan>
+    <tspan x="42" dy="11.2">                              /,,(&amp;&amp;,,,,#...&amp;   &amp;..,,,,,,,,,,,,,,,.(&amp;  &amp;&amp;...,,**/&amp;&amp;&amp;**/#</tspan>
+    <tspan x="42" dy="11.2">                              ,,#/%&amp;,,,,,,...%%%.,,,,,,,,,,,,,,,,,,.,%#%..,,,,///&amp;&amp;(//#*,</tspan>
+    <tspan x="42" dy="11.2">                             &amp;/,*,*&amp;*,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,///&amp;////**,</tspan>
+    <tspan x="42" dy="11.2">                              *,,,*,&amp;,,,,,,*,,,,,,,,,,,,,,,,,,,,,,,,,,,,**,,,,/*#////**#%</tspan>
+    <tspan x="42" dy="11.2">                               %,,,,,,,,,,,,,,,,,,,,,*,,,,,,,,,,,,,,,,,,,,,,,**//*%/**(/</tspan>
+    <tspan x="42" dy="11.2">                                ,,,,,,,,,,,,,,,,,,,,,,,////,,,,,,,,,,,,,,,,,,///(*//**</tspan>
+    <tspan x="42" dy="11.2">                                 &amp;(,,/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,//%///%/</tspan>
+    <tspan x="42" dy="11.2">                                     *,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,///&amp;&amp;/</tspan>
+    <tspan x="42" dy="11.2">                                      (,,,,,,,,,,,,,*////(#((/*,,,,,,,,,,,,*/*&amp;&amp;&amp;,</tspan>
+    <tspan x="42" dy="11.2">                                       .,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*//&amp;&amp;%</tspan>
+    <tspan x="42" dy="11.2">                                         ,*,,,,,,,,,,,,,,**,,,,,,,,,,,,,*//%,&amp;</tspan>
+    <tspan x="42" dy="11.2">                                           .%,,,,,,,,,,,,,,,,,,,,,,,,,*/#//#</tspan>
+    <tspan x="42" dy="11.2">                                           ,#//%,,*,,,,,,,,,,,,,,,,*/%/////#</tspan>
+    <tspan x="42" dy="11.2">                                            (,*//(*,,,,,*,,,,/,**/#///////*#</tspan>
+    <tspan x="42" dy="11.2">                                            *,,,*////////((##/////////////*(*</tspan>
+    <tspan x="42" dy="11.2">                                         .#%&amp;,,,,,,*//////////////////*/*///&amp;&amp;&amp;&amp;&amp;#/</tspan>
+    <tspan x="42" dy="11.2">                                    %.*%%%&amp;(,,,,,,,,,*///////////*,,,,,////////&amp;&amp;&amp;&amp;&amp;&amp;&amp;#,&amp;</tspan>
+    <tspan x="42" dy="11.2">                               *.%%%%%%%%&amp;,,,,,,,,,,,,,,,*//*,,,,,,,,,,*//////&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;%.*</tspan>
+    <tspan x="42" dy="11.2">                         ,*&amp;%%%%%%%%&amp;&amp;%%%%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,**/%&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;%%%&amp;*.</tspan>
+    <tspan x="42" dy="11.2">                  ,*&amp;%%%%%%%%%%%%&amp;%%%&amp;%%%%%&amp;,,,,,,,,,,,,,,,,,,,,,,,,,,,,&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;%&amp;%%%%&amp;%%%%%%%%&amp;(,</tspan>
+    <tspan x="42" dy="11.2">             .%%%%%%%%%%%%&amp;%%&amp;%%%%%%%&amp;&amp;&amp;%%%&amp;%%%&amp;*,,,,,,,,,,,,,,,,,(&amp;%&amp;%%%%%&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;%%&amp;&amp;%%%%%&amp;&amp;%%%%%%%%%&amp;%%%%%%%,</tspan>
+    <tspan x="42" dy="11.2">         .%%%%%%%%%%%%%%&amp;&amp;&amp;%%%&amp;&amp;%%%&amp;%%%&amp;&amp;%&amp;%&amp;%%%%%%%%%%%%%%&amp;&amp;&amp;&amp;&amp;%%&amp;&amp;%&amp;&amp;%&amp;&amp;&amp;&amp;%%%%%&amp;%%%%%%%%%%%%%%%&amp;&amp;%%%%%%%&amp;%%%%%%%%,</tspan>
+    <tspan x="42" dy="11.2">       .%%%%%%%%&amp;&amp;%%&amp;&amp;&amp;&amp;&amp;&amp;&amp;%%%%%%%%%&amp;%&amp;&amp;%%&amp;&amp;&amp;&amp;&amp;&amp;%%%&amp;&amp;&amp;&amp;&amp;&amp;%%%%%%%%&amp;&amp;%%&amp;&amp;&amp;%%%&amp;%%%%&amp;&amp;&amp;&amp;&amp;%&amp;%%%%&amp;%%%%%%%%%%%%&amp;&amp;%%%%&amp;&amp;%%%%&amp;,</tspan>
+    <tspan x="42" dy="11.2">     #&amp;%%%%%%%%%&amp;&amp;&amp;&amp;%%&amp;%&amp;%%%%%&amp;%%&amp;%%&amp;%&amp;&amp;&amp;%&amp;&amp;&amp;&amp;&amp;%%&amp;&amp;%&amp;%&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;%&amp;&amp;&amp;&amp;&amp;&amp;%&amp;&amp;%&amp;%&amp;%%%%%&amp;%%%%%%%%&amp;%%&amp;&amp;&amp;&amp;%%%&amp;%%%%%%%%%*</tspan>
+    <tspan x="42" dy="11.2">    ,%%%%%%&amp;&amp;%&amp;%%%%%%%%%%%%%%%%&amp;%%&amp;%%%%&amp;&amp;%&amp;&amp;%&amp;&amp;%%%&amp;%%&amp;&amp;&amp;&amp;&amp;&amp;%%&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;%&amp;%%&amp;&amp;&amp;&amp;%&amp;&amp;%%%%%&amp;&amp;%%%&amp;%%%%%&amp;%%&amp;%%%%%&amp;%%%%%%%%%%%%</tspan>
+    <tspan x="42" dy="11.2">   .%%%%%%%&amp;&amp;%%%%%%%&amp;%&amp;%&amp;%%%&amp;&amp;%&amp;&amp;&amp;&amp;&amp;&amp;&amp;%%&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;%&amp;%%&amp;&amp;&amp;&amp;&amp;&amp;%%%%&amp;&amp;&amp;&amp;%&amp;&amp;%%%&amp;%%%&amp;%%%&amp;%%&amp;&amp;%&amp;%%%%&amp;&amp;%%%%%%%%%%%%%</tspan>
+    <tspan x="42" dy="11.2">  .%%%%%%%%%&amp;%&amp;%%&amp;%%%%%%%%&amp;%&amp;&amp;%&amp;&amp;&amp;&amp;%&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;%&amp;&amp;%&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;%&amp;%%&amp;&amp;&amp;%%&amp;%&amp;&amp;&amp;%&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;%%%&amp;&amp;&amp;%%&amp;&amp;%&amp;&amp;%%%%</tspan>
+    <tspan x="42" dy="11.2"> ,&amp;%%%%%%&amp;&amp;%&amp;%&amp;&amp;&amp;&amp;%%&amp;%%&amp;%&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;%&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;%&amp;%%%&amp;&amp;&amp;%&amp;%&amp;%%%%&amp;%%%&amp;&amp;&amp;%&amp;%&amp;&amp;&amp;&amp;&amp;&amp;&amp;%%%%%&amp;&amp;%%%</tspan>
+    <tspan x="42" dy="11.2">.%%%%%%&amp;%&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;%%&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;%&amp;%&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;%&amp;&amp;&amp;&amp;&amp;&amp;%%%&amp;&amp;&amp;&amp;&amp;&amp;&amp;%&amp;%%&amp;&amp;&amp;&amp;%%&amp;%&amp;%&amp;&amp;&amp;&amp;&amp;%&amp;&amp;%&amp;&amp;&amp;&amp;&amp;%%%%%%%%%%</tspan>
+  </text>
+
+  <text class="header" x="560" y="92">lucas@github</text>
+  <line x1="560" y1="110" x2="1218" y2="110" stroke="#f0f6fc" stroke-width="1.5" />
+
+  <text class="section" x="560" y="156">System</text>
+  <line x1="650" y1="150" x2="1218" y2="150" stroke="#30363d" stroke-width="1" />
+  <line x1="720" y1="182" x2="890" y2="182" class="dots" />
+  <line x1="720" y1="216" x2="890" y2="216" class="dots" />
+  <line x1="720" y1="250" x2="890" y2="250" class="dots" />
+  <line x1="720" y1="284" x2="890" y2="284" class="dots" />
+  <line x1="720" y1="318" x2="890" y2="318" class="dots" />
+  <text y="188"><tspan x="560" class="label">OS</tspan><tspan x="915" class="value">macOS</tspan></text>
+  <text y="222"><tspan x="560" class="label">Host</tspan><tspan x="915" class="value">UC3M / Computer Science</tspan></text>
+  <text y="256"><tspan x="560" class="label">Shell</tspan><tspan x="915" class="value">zsh</tspan></text>
+  <text y="290"><tspan x="560" class="label">IDE</tspan><tspan x="915" class="value">VS Code</tspan></text>
+  <text y="324"><tspan x="560" class="label">Uptime</tspan><tspan x="915" class="value" id="age_data">0 years, 0 months, 0 days</tspan></text>
+
+  <text class="section" x="560" y="388">Languages</text>
+  <line x1="690" y1="382" x2="1218" y2="382" stroke="#30363d" stroke-width="1" />
+  <line x1="720" y1="414" x2="890" y2="414" class="dots" />
+  <line x1="720" y1="448" x2="890" y2="448" class="dots" />
+  <line x1="720" y1="482" x2="890" y2="482" class="dots" />
+  <text y="420"><tspan x="560" class="label">Programming</tspan><tspan x="915" class="value">Python, TypeScript, JavaScript</tspan></text>
+  <text y="454"><tspan x="560" class="label">Markup</tspan><tspan x="915" class="value">HTML, CSS, Tailwind</tspan></text>
+  <text y="488"><tspan x="560" class="label">Natural</tspan><tspan x="915" class="value">Spanish, English</tspan></text>
+
+  <text class="section" x="560" y="552">GitHub Stats</text>
+  <line x1="724" y1="546" x2="1218" y2="546" stroke="#30363d" stroke-width="1" />
+  <line x1="720" y1="578" x2="890" y2="578" class="dots" />
+  <line x1="720" y1="612" x2="890" y2="612" class="dots" />
+  <line x1="720" y1="646" x2="890" y2="646" class="dots" />
+  <line x1="720" y1="680" x2="890" y2="680" class="dots" />
+  <line x1="720" y1="714" x2="890" y2="714" class="dots" />
+  <text y="584"><tspan x="560" class="label">Repos</tspan><tspan x="915" class="value" id="repo_data">0</tspan><tspan class="muted">  {Contributed: </tspan><tspan class="value" id="contrib_data">0</tspan><tspan class="muted">}</tspan></text>
+  <text y="618"><tspan x="560" class="label">Stars</tspan><tspan x="915" class="value" id="star_data">0</tspan></text>
+  <text y="652"><tspan x="560" class="label">Commits</tspan><tspan x="915" class="value" id="commit_data">0</tspan></text>
+  <text y="686"><tspan x="560" class="label">Followers</tspan><tspan x="915" class="value" id="follower_data">0</tspan></text>
+  <text y="720"><tspan x="560" class="label">Lines of Code</tspan><tspan x="915" class="value" id="loc_data">0</tspan><tspan class="muted"> (</tspan><tspan class="good" id="loc_add">0</tspan><tspan class="muted">++ / </tspan><tspan class="bad" id="loc_del">0</tspan><tspan class="muted">--)</tspan></text>
+</svg>
