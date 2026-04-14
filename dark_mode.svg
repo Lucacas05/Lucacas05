@@ -81,7 +81,7 @@
   <text y="222"><tspan x="560" class="label">Host</tspan><tspan x="915" class="value">UC3M / Computer Science</tspan></text>
   <text y="256"><tspan x="560" class="label">Shell</tspan><tspan x="915" class="value">zsh</tspan></text>
   <text y="290"><tspan x="560" class="label">IDE</tspan><tspan x="915" class="value">VS Code</tspan></text>
-  <text y="324"><tspan x="560" class="label">Uptime</tspan><tspan x="915" class="value" id="age_data">20 years, 10 months, 7 days</tspan></text>
+  <text y="324"><tspan x="560" class="label">Uptime</tspan><tspan x="915" class="value" id="age_data">20 years, 10 months, 8 days</tspan></text>
 
   <text class="section" x="560" y="388">Languages</text>
   <line x1="690" y1="382" x2="1218" y2="382" stroke="#30363d" stroke-width="1"/>
@@ -101,7 +101,7 @@
   <line x1="720" y1="714" x2="890" y2="714" class="dots"/>
   <text y="584"><tspan x="560" class="label">Repos</tspan><tspan x="915" class="value" id="repo_data">55</tspan><tspan class="muted">  {Contributed: </tspan><tspan class="value" id="contrib_data">58</tspan><tspan class="muted">}</tspan></text>
   <text y="618"><tspan x="560" class="label">Stars</tspan><tspan x="915" class="value" id="star_data">2</tspan></text>
-  <text y="652"><tspan x="560" class="label">Commits</tspan><tspan x="915" class="value" id="commit_data">1,842</tspan></text>
-  <text y="686"><tspan x="560" class="label">Followers</tspan><tspan x="915" class="value" id="follower_data">2</tspan></text>
-  <text y="720"><tspan x="560" class="label">Lines of Code</tspan><tspan x="915" class="value" id="loc_data">2,970,949</tspan><tspan class="muted"> (</tspan><tspan class="good" id="loc_add">3,989,608</tspan><tspan class="muted">++ / </tspan><tspan class="bad" id="loc_del">1,018,659</tspan><tspan class="muted">--)</tspan></text>
+  <text y="652"><tspan x="560" class="label">Commits</tspan><tspan x="915" class="value" id="commit_data">1,870</tspan></text>
+  <text y="686"><tspan x="560" class="label">Followers</tspan><tspan x="915" class="value" id="follower_data">3</tspan></text>
+  <text y="720"><tspan x="560" class="label">Lines of Code</tspan><tspan x="915" class="value" id="loc_data">2,985,278</tspan><tspan class="muted"> (</tspan><tspan class="good" id="loc_add">4,004,894</tspan><tspan class="muted">++ / </tspan><tspan class="bad" id="loc_del">1,019,616</tspan><tspan class="muted">--)</tspan></text>
 </svg>
