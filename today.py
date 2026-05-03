@@ -11,7 +11,6 @@ import hashlib
 import datetime
 import requests
 from dateutil.relativedelta import relativedelta
-from lxml import etree
 
 # ── Configuration ──────────────────────────────────────────────────────────────
 BIRTHDAY = "2005-06-06"
@@ -218,22 +217,38 @@ def commit_counter():
     return total
 
 
-# ── SVG updater ────────────────────────────────────────────────────────────────
-def svg_overwrite(filename, **kwargs):
-    tree = etree.parse(filename)
-    root = tree.getroot()
+# ── README updater ─────────────────────────────────────────────────────────────
+def readme_overwrite(filename, **kwargs):
+    content = f"""## System
 
-    def find_and_replace(element_id, new_text):
-        els = root.xpath(f'//*[@id="{element_id}"]')
-        if els:
-            els[0].text = str(new_text)
-        else:
-            print(f"  Warning: element '{element_id}' not found in {filename}")
+| Field | Value |
+| --- | --- |
+| OS | macOS |
+| Host | UC3M / Computer Science |
+| Shell | zsh |
+| IDE | VS Code |
+| Uptime | {kwargs['age_data']} |
 
-    for key, value in kwargs.items():
-        find_and_replace(key, value)
+## Languages
 
-    tree.write(filename, xml_declaration=True, encoding="UTF-8")
+| Field | Value |
+| --- | --- |
+| Programming | Python, TypeScript, JavaScript |
+| Markup | HTML, CSS, Tailwind |
+| Natural | Spanish, English |
+
+## GitHub Stats
+
+| Stat | Value |
+| --- | --- |
+| Repos | {kwargs['repo_data']} |
+| Contributed | {kwargs['contrib_data']} |
+| Stars | {kwargs['star_data']} |
+| Commits | {kwargs['commit_data']} |
+| Followers | {kwargs['follower_data']} |
+"""
+    with open(filename, "w") as f:
+        f.write(content)
 
 
 # ── Main ───────────────────────────────────────────────────────────────────────
@@ -275,7 +290,7 @@ def main():
     followers = follower_getter(USERNAME)
     print(f"  Followers: {followers}")
 
-    # Update SVGs
+    # Update README
     fmt = lambda n: f"{n:,}"
     data = dict(
         age_data=age,
@@ -285,9 +300,8 @@ def main():
         commit_data=fmt(commits),
         follower_data=fmt(followers),
     )
-    for svg in ["light_mode.svg", "dark_mode.svg"]:
-        svg_overwrite(svg, **data)
-        print(f"  Updated {svg}")
+    readme_overwrite("README.md", **data)
+    print("  Updated README.md")
 
     print(f"\nDone in {time.time() - t0:.1f}s ({QUERY_COUNT} API calls)")
 

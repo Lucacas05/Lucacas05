@@ -1,6 +1,27 @@
-<a href="https://github.com/Lucacas05/Lucacas05">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lucacas05/Lucacas05/main/dark_mode.svg">
-    <img alt="Lucas's GitHub Profile" src="https://raw.githubusercontent.com/Lucacas05/Lucacas05/main/light_mode.svg">
-  </picture>
-</a>
+## System
+
+| Field | Value |
+| --- | --- |
+| OS | macOS |
+| Host | UC3M / Computer Science |
+| Shell | zsh |
+| IDE | VS Code |
+| Uptime | 20 years, 10 months, 21 days |
+
+## Languages
+
+| Field | Value |
+| --- | --- |
+| Programming | Python, TypeScript, JavaScript |
+| Markup | HTML, CSS, Tailwind |
+| Natural | Spanish, English |
+
+## GitHub Stats
+
+| Stat | Value |
+| --- | --- |
+| Repos | 57 |
+| Contributed | 60 |
+| Stars | 3 |
+| Commits | 1,931 |
+| Followers | 3 |
