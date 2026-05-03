@@ -9,6 +9,10 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v4
 
@@ -27,7 +31,7 @@ jobs:
 
       - name: Update SVGs
         env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN || github.token }}
           USER_NAME: ${{ secrets.USER_NAME }}
         run: python today.py
 

@@ -5,6 +5,7 @@ Adapted from github.com/Andrew6rant/Andrew6rant
 """
 
 import os
+import sys
 import time
 import hashlib
 import datetime
@@ -26,11 +27,22 @@ HEADERS = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
 # ── GraphQL helpers ────────────────────────────────────────────────────────────
 def query_graphql(query, variables=None):
     global QUERY_COUNT
+    if not ACCESS_TOKEN:
+        raise Exception(
+            "ACCESS_TOKEN is not set. Add a GitHub token as the ACCESS_TOKEN "
+            "repository secret, or let the workflow pass github.token."
+        )
     QUERY_COUNT += 1
     payload = {"query": query}
     if variables:
         payload["variables"] = variables
     resp = requests.post(GRAPHQL_URL, json=payload, headers=HEADERS)
+    if resp.status_code == 401:
+        raise Exception(
+            "GitHub token is invalid or expired (401 Bad credentials). "
+            "Refresh the ACCESS_TOKEN repository secret, or remove it to use "
+            "the workflow's github.token fallback."
+        )
     if resp.status_code == 200:
         data = resp.json()
         if "errors" in data:
@@ -284,4 +296,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as exc:
+        print(f"::error::{exc}")
+        sys.exit(1)
