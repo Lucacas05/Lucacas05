@@ -6,22 +6,12 @@
 | Host | UC3M / Computer Science |
 | Shell | zsh |
 | IDE | VS Code |
-| Uptime | 20 years, 10 months, 21 days |
+| Uptime | 20 years, 10 months, 27 days |
 
 ## Languages
 
 | Field | Value |
 | --- | --- |
-| Programming | Python, TypeScript, JavaScript |
+| Programming | Python, Bash, C, C++, RISC-V, HTML/CSS, JavaScript, TypeScript |
 | Markup | HTML, CSS, Tailwind |
 | Natural | Spanish, English |
-
-## GitHub Stats
-
-| Stat | Value |
-| --- | --- |
-| Repos | 57 |
-| Contributed | 60 |
-| Stars | 3 |
-| Commits | 1,931 |
-| Followers | 3 |
