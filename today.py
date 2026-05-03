@@ -284,9 +284,6 @@ def main():
         star_data=fmt(stars),
         commit_data=fmt(commits),
         follower_data=fmt(followers),
-        loc_data=fmt(net_loc),
-        loc_add=fmt(additions),
-        loc_del=fmt(deletions),
     )
     for svg in ["light_mode.svg", "dark_mode.svg"]:
         svg_overwrite(svg, **data)

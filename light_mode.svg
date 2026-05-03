@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="760" viewBox="0 0 760 760">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="664" viewBox="0 0 760 664">
   <style>
     .panel { fill: #ffffff; stroke: #d0d7de; stroke-width: 1; }
     .frame { fill: none; stroke: #d8dee4; stroke-width: 1; }
@@ -14,43 +14,41 @@
     .dots { stroke: #57606a; stroke-width: 2; stroke-linecap: round; stroke-dasharray: 1 8; opacity: 0.8; }
   </style>
 
-  <rect x="16" y="16" width="728" height="728" rx="24" class="panel"/>
-  <rect x="34" y="34" width="692" height="692" rx="18" class="frame"/>
+  <rect x="16" y="16" width="728" height="632" rx="24" class="panel"/>
+  <rect x="34" y="34" width="692" height="596" rx="18" class="frame"/>
 
 
 
-  <text class="section" x="64" y="156">System</text>
-  <line x1="154" y1="150" x2="722" y2="150" stroke="#d0d7de" stroke-width="1"/>
-  <line x1="224" y1="182" x2="394" y2="182" class="dots"/>
-  <line x1="224" y1="216" x2="394" y2="216" class="dots"/>
-  <line x1="224" y1="250" x2="394" y2="250" class="dots"/>
-  <line x1="224" y1="284" x2="394" y2="284" class="dots"/>
-  <line x1="224" y1="318" x2="394" y2="318" class="dots"/>
-  <text y="188"><tspan x="64" class="label">OS</tspan><tspan x="419" class="value">macOS</tspan></text>
-  <text y="222"><tspan x="64" class="label">Host</tspan><tspan x="419" class="value">UC3M / Computer Science</tspan></text>
-  <text y="256"><tspan x="64" class="label">Shell</tspan><tspan x="419" class="value">zsh</tspan></text>
-  <text y="290"><tspan x="64" class="label">IDE</tspan><tspan x="419" class="value">VS Code</tspan></text>
-  <text y="324"><tspan x="64" class="label">Uptime</tspan><tspan x="419" class="value" id="age_data">20 years, 10 months, 21 days</tspan></text>
+  <text class="section" x="64" y="92">System</text>
+  <line x1="154" y1="86" x2="722" y2="86" stroke="#d0d7de" stroke-width="1"/>
+  <line x1="224" y1="118" x2="394" y2="118" class="dots"/>
+  <line x1="224" y1="152" x2="394" y2="152" class="dots"/>
+  <line x1="224" y1="186" x2="394" y2="186" class="dots"/>
+  <line x1="224" y1="220" x2="394" y2="220" class="dots"/>
+  <line x1="224" y1="254" x2="394" y2="254" class="dots"/>
+  <text y="124"><tspan x="64" class="label">OS</tspan><tspan x="419" class="value">macOS</tspan></text>
+  <text y="158"><tspan x="64" class="label">Host</tspan><tspan x="419" class="value">UC3M / Computer Science</tspan></text>
+  <text y="192"><tspan x="64" class="label">Shell</tspan><tspan x="419" class="value">zsh</tspan></text>
+  <text y="226"><tspan x="64" class="label">IDE</tspan><tspan x="419" class="value">VS Code</tspan></text>
+  <text y="260"><tspan x="64" class="label">Uptime</tspan><tspan x="419" class="value" id="age_data">20 years, 10 months, 21 days</tspan></text>
 
-  <text class="section" x="64" y="388">Languages</text>
-  <line x1="194" y1="382" x2="722" y2="382" stroke="#d0d7de" stroke-width="1"/>
-  <line x1="224" y1="414" x2="394" y2="414" class="dots"/>
-  <line x1="224" y1="448" x2="394" y2="448" class="dots"/>
-  <line x1="224" y1="482" x2="394" y2="482" class="dots"/>
-  <text y="420"><tspan x="64" class="label">Programming</tspan><tspan x="419" class="value">Python, TypeScript, JavaScript</tspan></text>
-  <text y="454"><tspan x="64" class="label">Markup</tspan><tspan x="419" class="value">HTML, CSS, Tailwind</tspan></text>
-  <text y="488"><tspan x="64" class="label">Natural</tspan><tspan x="419" class="value">Spanish, English</tspan></text>
+  <text class="section" x="64" y="324">Languages</text>
+  <line x1="194" y1="318" x2="722" y2="318" stroke="#d0d7de" stroke-width="1"/>
+  <line x1="224" y1="350" x2="394" y2="350" class="dots"/>
+  <line x1="224" y1="384" x2="394" y2="384" class="dots"/>
+  <line x1="224" y1="418" x2="394" y2="418" class="dots"/>
+  <text y="356"><tspan x="64" class="label">Programming</tspan><tspan x="419" class="value">Python, TypeScript, JavaScript</tspan></text>
+  <text y="390"><tspan x="64" class="label">Markup</tspan><tspan x="419" class="value">HTML, CSS, Tailwind</tspan></text>
+  <text y="424"><tspan x="64" class="label">Natural</tspan><tspan x="419" class="value">Spanish, English</tspan></text>
 
-  <text class="section" x="64" y="552">GitHub Stats</text>
-  <line x1="228" y1="546" x2="722" y2="546" stroke="#d0d7de" stroke-width="1"/>
-  <line x1="224" y1="578" x2="394" y2="578" class="dots"/>
-  <line x1="224" y1="612" x2="394" y2="612" class="dots"/>
-  <line x1="224" y1="646" x2="394" y2="646" class="dots"/>
-  <line x1="224" y1="680" x2="394" y2="680" class="dots"/>
-  <line x1="224" y1="714" x2="394" y2="714" class="dots"/>
-  <text y="584"><tspan x="64" class="label">Repos</tspan><tspan x="419" class="value" id="repo_data">57</tspan><tspan class="muted">  {Contributed: </tspan><tspan class="value" id="contrib_data">60</tspan><tspan class="muted">}</tspan></text>
-  <text y="618"><tspan x="64" class="label">Stars</tspan><tspan x="419" class="value" id="star_data">3</tspan></text>
-  <text y="652"><tspan x="64" class="label">Commits</tspan><tspan x="419" class="value" id="commit_data">1,931</tspan></text>
-  <text y="686"><tspan x="64" class="label">Followers</tspan><tspan x="419" class="value" id="follower_data">3</tspan></text>
-  <text y="720"><tspan x="64" class="label">Lines of Code</tspan><tspan x="419" class="value" id="loc_data">2,988,317</tspan><tspan class="muted"> (</tspan><tspan class="good" id="loc_add">4,008,156</tspan><tspan class="muted">++ / </tspan><tspan class="bad" id="loc_del">1,019,839</tspan><tspan class="muted">--)</tspan></text>
+  <text class="section" x="64" y="488">GitHub Stats</text>
+  <line x1="228" y1="482" x2="722" y2="482" stroke="#d0d7de" stroke-width="1"/>
+  <line x1="224" y1="514" x2="394" y2="514" class="dots"/>
+  <line x1="224" y1="548" x2="394" y2="548" class="dots"/>
+  <line x1="224" y1="582" x2="394" y2="582" class="dots"/>
+  <line x1="224" y1="616" x2="394" y2="616" class="dots"/>
+  <text y="520"><tspan x="64" class="label">Repos</tspan><tspan x="419" class="value" id="repo_data">57</tspan><tspan class="muted">  {Contributed: </tspan><tspan class="value" id="contrib_data">60</tspan><tspan class="muted">}</tspan></text>
+  <text y="554"><tspan x="64" class="label">Stars</tspan><tspan x="419" class="value" id="star_data">3</tspan></text>
+  <text y="588"><tspan x="64" class="label">Commits</tspan><tspan x="419" class="value" id="commit_data">1,931</tspan></text>
+  <text y="622"><tspan x="64" class="label">Followers</tspan><tspan x="419" class="value" id="follower_data">3</tspan></text>
 </svg>
