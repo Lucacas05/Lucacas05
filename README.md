@@ -6,7 +6,7 @@
 | Host | UC3M / Computer Science |
 | Shell | zsh |
 | IDE | VS Code |
-| Uptime | 20 years, 11 months, 26 days |
+| Uptime | 20 years, 11 months, 27 days |
 
 ## Languages
 
